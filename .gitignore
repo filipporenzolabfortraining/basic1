@@ -1,30 +1,72 @@
-# phpstorm project files
-.idea
+# Created by https://www.gitignore.io/api/osx,sublimetext,dreamweaver
 
-# netbeans project files
-nbproject
+### Dreamweaver ###
+# DW Dreamweaver added files
+_notes
+_compareTemp
+configs/
+dwsync.xml
+dw_php_codehinting.config
+*.mno
 
-# zend studio for eclipse project files
-.buildpath
-.project
-.settings
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
-# windows thumbnail cache
-Thumbs.db
+# Icon must end with two \r
+Icon
 
-# composer vendor dir
-/vendor
 
-# composer itself is not needed
-composer.phar
+# Thumbnails
+._*
 
-# Mac DS_Store Files
-.DS_Store
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# phpunit itself is not needed
-phpunit.phar
-# local phpunit config
-/phpunit.xml
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-tests/_output/*
-tests/_support/_generated
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+
+# End of https://www.gitignore.io/api/osx,sublimetext,dreamweaver
